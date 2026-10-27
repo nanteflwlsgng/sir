@@ -131,7 +131,14 @@ dans les tables métier à venir, en plus d'un identifiant technique.
 
 ## Prochaines tranches
 
-1. **Référentiels** : campagnes, géographie (districts/communes/fokontany), espèces et synonymes, types RPF.
+### Tranche 2 — Référentiels & Campagnes (en cours)
+
+1. **Campagnes** : CRUD + transitions de statut (préparée/active/clôturée), règle d'unicité "une seule campagne active" à la fois.
+2. **Géographie** : districts, communes, fokontany — hiérarchie complète avec codes uniques.
+3. **Espèces** : catalogue d'espèces (codes métier historiques), synonymes optionnels.
+4. **Types RPF** : AT, JT, PT, RT (Arbre, Jardins, Pépinières, Restitution).
+
+### Tranche 3 — Planifications
 2. **Planifications** : objectifs RPF, superficie prévue, localisation, filtres.
 3. **Réalisations** : plantations multi-lignes, interventions, suivi, pièces jointes.
 4. **Pépinières** : production, sorties, stock calculé.
